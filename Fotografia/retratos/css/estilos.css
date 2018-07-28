@@ -1,0 +1,128 @@
+@@font-face {
+  ont-family: 'Merienda-Regular';
+  src: url(Merienda-Regular.ttf);
+}
+header{
+  margin-right: 100%;
+  width: 100%;
+  background-color: #5b7989;
+  color: white;
+  padding-bottom: 10%;
+  border-radius: 10px;
+  font-family: Merienda.Regular;
+}
+section{
+  background-color: #d5c75f;
+  border: 5px;
+  width: 100%;
+  padding: 10%;
+}
+div{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+img{
+  width: 30%;
+  height: 30%;
+  border: 2px solid;
+  margin: 5px;
+}
+footer{
+  width: 100%;
+  background-color:  #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor{
+  display:flex;
+  flex-direction:row;
+}
+.contenedor2{
+  display:flex;
+  flex-direction:row;
+}
+#contenido{
+  width: 90%;
+  margin: 0 auto;
+}
+#contenedor2{
+  width: 90%;
+  margin: 0 auto;
+}
+}
+@media screen and (max-width:960px){
+  #contenido{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:640px){
+  #contenido{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:480px){
+  #contenido{
+    width: 100%;
+    margin: o auto;
+  }
+  .contenedor{
+display: flex;
+flex-direction: column;
+}
+
+.contenedor2{
+display: flex;
+flex-direction: column;
+}
+  #imagen1{
+    width: 100%;
+  }
+  #imagen2{
+    width: 100%;
+  }
+  #imagen3{
+    width: 100%;
+  }
+  #imagen4{
+    width: 100%;
+  }
+  #imagen5{
+    width: 100%;
+  }
+  #imagen6{
+    width: 100%;
+  }
+
+}
+#imagen1 {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+#imagen2{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imagen3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+#imagen4{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imagen6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+@media (max-width:960px){
+footer{
+width: 480px;
+display: flex;
+flex-direction: column;
+}
